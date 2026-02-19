@@ -1,0 +1,260 @@
+{
+  "0500495d5016ffe6": {
+    "c": {
+      "d": {
+        "b": {
+          "link": "Lien",
+          "photo": "Photo",
+          "text": "Texte",
+          "video": "Vidéo"
+        },
+        "t": "b"
+      },
+      "i": 2,
+      "t": "Branch"
+    },
+    "i": 1,
+    "t": "span"
+  },
+  "5bc5fc932c98c5ae": "Flux social – exemple General Translation",
+  "a65b724a9c1e15fe": {
+    "c": {
+      "c": [
+        {
+          "c": {
+            "i": 4,
+            "k": "_gt_value_4",
+            "v": "v"
+          },
+          "i": 3,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": [
+                {
+                  "c": {
+                    "i": 8,
+                    "k": "_gt_value_8",
+                    "v": "v"
+                  },
+                  "i": 7,
+                  "t": "span"
+                },
+                {
+                  "c": {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  "i": 9,
+                  "t": "span"
+                },
+                {
+                  "c": "·",
+                  "i": 11,
+                  "t": "span"
+                },
+                {
+                  "c": {
+                    "i": 13,
+                    "k": "_gt_date_13",
+                    "v": "d"
+                  },
+                  "i": 12,
+                  "t": "span"
+                },
+                {
+                  "i": 14,
+                  "t": "PostTypeBadge"
+                }
+              ],
+              "i": 6,
+              "t": "div"
+            },
+            {
+              "c": {
+                "i": 16,
+                "k": "_gt_value_16",
+                "v": "v"
+              },
+              "i": 15,
+              "t": "p"
+            },
+            {
+              "c": [
+                {
+                  "c": [
+                    {
+                      "i": 19,
+                      "k": "_gt_n_19",
+                      "v": "n"
+                    },
+                    " ",
+                    {
+                      "d": {
+                        "b": {
+                          "many": "J'aime",
+                          "other": "j'aime",
+                          "plural": "mentions J'aime",
+                          "singular": "j'aime"
+                        },
+                        "t": "p"
+                      },
+                      "i": 20,
+                      "t": "Plural"
+                    }
+                  ],
+                  "i": 18,
+                  "t": "span"
+                },
+                {
+                  "c": [
+                    {
+                      "i": 22,
+                      "k": "_gt_n_22",
+                      "v": "n"
+                    },
+                    " ",
+                    {
+                      "d": {
+                        "b": {
+                          "many": "commentaires",
+                          "other": "commentaires",
+                          "plural": "commentaires",
+                          "singular": "commentaire"
+                        },
+                        "t": "p"
+                      },
+                      "i": 23,
+                      "t": "Plural"
+                    }
+                  ],
+                  "i": 21,
+                  "t": "span"
+                },
+                {
+                  "c": [
+                    {
+                      "i": 25,
+                      "k": "_gt_n_25",
+                      "v": "n"
+                    },
+                    " ",
+                    {
+                      "d": {
+                        "b": {
+                          "many": "partages",
+                          "other": "partages",
+                          "plural": "partages",
+                          "singular": "partage"
+                        },
+                        "t": "p"
+                      },
+                      "i": 26,
+                      "t": "Plural"
+                    }
+                  ],
+                  "i": 24,
+                  "t": "span"
+                }
+              ],
+              "i": 17,
+              "t": "div"
+            }
+          ],
+          "i": 5,
+          "t": "div"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    },
+    "i": 1,
+    "t": "article"
+  },
+  "bd3467007430607f": {
+    "c": "Ceci est un exemple d'application développée avec General Translation pour illustrer l'internationalisation.",
+    "i": 1,
+    "t": "div"
+  },
+  "c372506db7d9c794": {
+    "c": [
+      "Affichage de ",
+      {
+        "i": 2,
+        "k": "_gt_n_2",
+        "v": "n"
+      },
+      " ",
+      {
+        "d": {
+          "b": {
+            "many": "publications",
+            "other": "publications",
+            "plural": "publications",
+            "singular": "publication"
+          },
+          "t": "p"
+        },
+        "i": 3,
+        "t": "Plural"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "d66622fd97ad735a": "Application d’exemple de flux social démontrant l’internationalisation avec General Translation.",
+  "e85685ffb16217de": {
+    "c": {
+      "c": [
+        {
+          "c": {
+            "c": [
+              "General Translation ",
+              {
+                "c": "/ Fil social",
+                "i": 5,
+                "t": "span"
+              }
+            ],
+            "i": 4,
+            "t": "h1"
+          },
+          "i": 3,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": {
+                "c": {
+                  "i": 9,
+                  "t": "path"
+                },
+                "i": 8,
+                "t": "svg"
+              },
+              "d": {
+                "arl": "GitHub"
+              },
+              "i": 7,
+              "t": "a"
+            },
+            {
+              "i": 10,
+              "t": "LocaleSelector"
+            }
+          ],
+          "i": 6,
+          "t": "div"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    },
+    "i": 1,
+    "t": "header"
+  }
+}
