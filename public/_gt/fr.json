@@ -16,12 +16,130 @@
     "i": 1,
     "t": "span"
   },
-  "2932bd5a7c2e7676": "Notre équipe vient de franchir le seuil du million de chaînes traduites ce trimestre. Nos outils d’automatisation ont complètement transformé notre flux de travail.",
-  "34365549f1083df9": "Je viens de livrer une nouvelle fonctionnalité pour notre pipeline d’internationalisation. La qualité des traductions est incroyable dans toutes les langues prises en charge.",
+  "0bbb2d227f460a13": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": {
+              "i": 4,
+              "k": "_gt_value_4",
+              "v": "v"
+            },
+            "i": 3,
+            "t": "Link"
+          },
+          {
+            "c": {
+              "i": 6,
+              "k": "_gt_value_6",
+              "v": "v"
+            },
+            "i": 5,
+            "t": "span"
+          },
+          {
+            "c": "·",
+            "i": 7,
+            "t": "span"
+          },
+          {
+            "c": {
+              "i": 9,
+              "k": "_gt_date_9",
+              "v": "d"
+            },
+            "i": 8,
+            "t": "span"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": {
+          "i": 11,
+          "k": "_gt_value_11",
+          "v": "v"
+        },
+        "i": 10,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "217ca2d8f9c8f6a9": {
+    "c": [
+      {
+        "c": "Explorer",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "Découvrez les sujets tendance, les publications populaires et des personnes à suivre.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "24631a48e276bdcf": {
+    "c": {
+      "c": [
+        "Commentaires (",
+        {
+          "i": 3,
+          "k": "_gt_n_3",
+          "v": "n"
+        },
+        ")"
+      ],
+      "i": 2,
+      "t": "h2"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "2932bd5a7c2e7676": "Notre équipe vient de dépasser le cap du million de chaînes de texte traduites ce trimestre. Les outils d’automatisation ont complètement transformé notre flux de travail.",
+  "34365549f1083df9": "Je viens de déployer une nouvelle fonctionnalité pour notre pipeline d’internationalisation. La qualité des traductions est incroyable dans toutes les langues prises en charge.",
+  "46b19c6b936362ec": {
+    "c": "Aucun post pour l'instant.",
+    "i": 1,
+    "t": "div"
+  },
   "52585eee49e18100": "J’ai enregistré une démo guidée de la nouvelle fonctionnalité de changement de locale. Transitions fluides entre 5 langues.",
-  "5bc5fc932c98c5ae": "Fil social - Exemple général de traduction",
+  "5bc5fc932c98c5ae": "Flux social – Exemple avec General Translation",
+  "5e475dea5e4b80b3": {
+    "c": [
+      "Publications (",
+      {
+        "i": 2,
+        "k": "_gt_n_2",
+        "v": "n"
+      },
+      ")"
+    ],
+    "i": 1,
+    "t": "h2"
+  },
+  "601a97992f3b1a50": {
+    "c": {
+      "c": "Rechercher des publications, des personnes et des sujets...",
+      "i": 2,
+      "t": "div"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "6b5b5eece4e22064": {
+    "c": "Aucun commentaire pour l'instant. Soyez le premier à répondre !",
+    "i": 1,
+    "t": "div"
+  },
   "7a5bff8bd7f5f8eb": "Découvrez ce schéma d’architecture de notre nouveau système de diffusion de contenu multilingue.",
-  "a65b724a9c1e15fe": {
+  "7e174e97fb814fea": {
     "c": {
       "c": [
         {
@@ -36,54 +154,30 @@
         {
           "c": [
             {
-              "c": [
-                {
-                  "c": {
-                    "i": 8,
-                    "k": "_gt_value_8",
-                    "v": "v"
-                  },
-                  "i": 7,
-                  "t": "span"
-                },
-                {
-                  "c": {
-                    "i": 10,
-                    "k": "_gt_value_10",
-                    "v": "v"
-                  },
-                  "i": 9,
-                  "t": "span"
-                },
-                {
-                  "c": "·",
-                  "i": 11,
-                  "t": "span"
-                },
-                {
-                  "c": {
-                    "i": 13,
-                    "k": "_gt_date_13",
-                    "v": "d"
-                  },
-                  "i": 12,
-                  "t": "span"
-                },
-                {
-                  "i": 14,
-                  "t": "PostTypeBadge"
-                }
-              ],
+              "c": {
+                "i": 7,
+                "k": "_gt_value_7",
+                "v": "v"
+              },
               "i": 6,
-              "t": "div"
+              "t": "h1"
             },
             {
               "c": {
-                "i": 16,
-                "k": "_gt_value_16",
+                "i": 9,
+                "k": "_gt_value_9",
                 "v": "v"
               },
-              "i": 15,
+              "i": 8,
+              "t": "p"
+            },
+            {
+              "c": {
+                "i": 11,
+                "k": "_gt_value_11",
+                "v": "v"
+              },
+              "i": 10,
               "t": "p"
             },
             {
@@ -91,81 +185,65 @@
                 {
                   "c": [
                     {
-                      "i": 19,
-                      "k": "_gt_n_19",
-                      "v": "n"
+                      "c": {
+                        "i": 15,
+                        "k": "_gt_n_15",
+                        "v": "n"
+                      },
+                      "i": 14,
+                      "t": "span"
                     },
                     " ",
                     {
-                      "d": {
-                        "b": {
-                          "many": "j'aime",
-                          "other": "J'aime",
-                          "plural": "j'aime",
-                          "singular": "j'aime"
+                      "c": {
+                        "d": {
+                          "b": {
+                            "many": "abonnés",
+                            "other": "abonnés",
+                            "plural": "abonnés",
+                            "singular": "abonné"
+                          },
+                          "t": "p"
                         },
-                        "t": "p"
+                        "i": 17,
+                        "t": "Plural"
                       },
-                      "i": 20,
-                      "t": "Plural"
+                      "i": 16,
+                      "t": "span"
+                    }
+                  ],
+                  "i": 13,
+                  "t": "span"
+                },
+                {
+                  "c": [
+                    {
+                      "c": {
+                        "i": 20,
+                        "k": "_gt_n_20",
+                        "v": "n"
+                      },
+                      "i": 19,
+                      "t": "span"
+                    },
+                    " ",
+                    {
+                      "c": "abonnés",
+                      "i": 21,
+                      "t": "span"
                     }
                   ],
                   "i": 18,
                   "t": "span"
-                },
-                {
-                  "c": [
-                    {
-                      "i": 22,
-                      "k": "_gt_n_22",
-                      "v": "n"
-                    },
-                    " ",
-                    {
-                      "d": {
-                        "b": {
-                          "many": "commentaires",
-                          "other": "commentaires",
-                          "plural": "commentaires",
-                          "singular": "commentaire"
-                        },
-                        "t": "p"
-                      },
-                      "i": 23,
-                      "t": "Plural"
-                    }
-                  ],
-                  "i": 21,
-                  "t": "span"
-                },
-                {
-                  "c": [
-                    {
-                      "i": 25,
-                      "k": "_gt_n_25",
-                      "v": "n"
-                    },
-                    " ",
-                    {
-                      "d": {
-                        "b": {
-                          "many": "partages",
-                          "other": "partages",
-                          "plural": "partages",
-                          "singular": "partage"
-                        },
-                        "t": "p"
-                      },
-                      "i": 26,
-                      "t": "Plural"
-                    }
-                  ],
-                  "i": 24,
-                  "t": "span"
                 }
               ],
-              "i": 17,
+              "i": 12,
               "t": "div"
+            },
+            {
+              "c": "Suivre",
+              "i": 22,
+              "t": "button"
             }
           ],
           "i": 5,
@@ -176,12 +254,47 @@
       "t": "div"
     },
     "i": 1,
-    "t": "article"
+    "t": "div"
   },
-  "bd3467007430607f": {
-    "c": "Ceci est un exemple d'application développée avec General Translation pour illustrer l'internationalisation.",
+  "88ec15e0f048cbc8": {
+    "c": "← Retour au fil",
+    "i": 1,
+    "t": "Link"
+  },
+  "8d2833e9cf55e3ac": {
+    "c": "Articles populaires",
+    "i": 1,
+    "t": "h2"
+  },
+  "b4621a42b43e0b27": {
+    "c": [
+      {
+        "c": "Écrire une réponse",
+        "i": 2,
+        "t": "p"
+      },
+      {
+        "c": "Partagez vos pensées...",
+        "i": 3,
+        "t": "div"
+      },
+      {
+        "c": {
+          "c": "Répondre",
+          "i": 5,
+          "t": "button"
+        },
+        "i": 4,
+        "t": "div"
+      }
+    ],
     "i": 1,
     "t": "div"
+  },
+  "bd3467007430607f": {
+    "c": "Voici un exemple d'application construite avec General Translation pour illustrer l'internationalisation.",
+    "i": 1,
+    "t": "p"
   },
   "c372506db7d9c794": {
     "c": [
@@ -209,23 +322,44 @@
     "i": 1,
     "t": "div"
   },
-  "d66622fd97ad735a": "Une application de fil social d’exemple démontrant l’internationalisation avec General Translation.",
-  "e85685ffb16217de": {
+  "c58b41c98df808a2": {
     "c": {
       "c": [
         {
-          "c": {
-            "c": [
-              "General Translation ",
-              {
-                "c": "/ Fil social",
+          "c": [
+            {
+              "c": {
+                "c": [
+                  "General Translation ",
+                  {
+                    "c": "/ Fil social",
+                    "i": 6,
+                    "t": "span"
+                  }
+                ],
                 "i": 5,
-                "t": "span"
-              }
-            ],
-            "i": 4,
-            "t": "h1"
-          },
+                "t": "h1"
+              },
+              "i": 4,
+              "t": "Link"
+            },
+            {
+              "c": [
+                {
+                  "c": "Fil",
+                  "i": 8,
+                  "t": "Link"
+                },
+                {
+                  "c": "Explorer",
+                  "i": 9,
+                  "t": "Link"
+                }
+              ],
+              "i": 7,
+              "t": "nav"
+            }
+          ],
           "i": 3,
           "t": "div"
         },
@@ -234,24 +368,24 @@
             {
               "c": {
                 "c": {
-                  "i": 9,
+                  "i": 13,
                   "t": "path"
                 },
-                "i": 8,
+                "i": 12,
                 "t": "svg"
               },
               "d": {
                 "arl": "GitHub"
               },
-              "i": 7,
+              "i": 11,
               "t": "a"
             },
             {
-              "i": 10,
+              "i": 14,
               "t": "LocaleSelector"
             }
           ],
-          "i": 6,
+          "i": 10,
           "t": "div"
         }
       ],
@@ -261,5 +395,6 @@
     "i": 1,
     "t": "header"
   },
+  "d66622fd97ad735a": "Une application de flux de médias sociaux qui démontre l’internationalisation avec General Translation.",
   "ec7fc8f92a946610": "Excellent article sur l’avenir de la traduction en temps réel dans les applications web."
 }
