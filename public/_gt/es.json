@@ -3,7 +3,7 @@
     "c": {
       "d": {
         "b": {
-          "link": "Enlace",
+          "link": "Link",
           "photo": "Foto",
           "text": "Texto",
           "video": "Video"
@@ -16,7 +16,11 @@
     "i": 1,
     "t": "span"
   },
-  "5bc5fc932c98c5ae": "Feed social: ejemplo de traducción general",
+  "2932bd5a7c2e7676": "Nuestro equipo acaba de superar 1.000.000 de cadenas de texto traducidas este trimestre. Las herramientas de automatización han cambiado por completo nuestro flujo de trabajo.",
+  "34365549f1083df9": "Acabamos de lanzar una nueva funcionalidad para nuestro proceso de internacionalización. La calidad de las traducciones ha sido increíble en todos los idiomas admitidos.",
+  "52585eee49e18100": "Grabé una guía paso a paso sobre la nueva función de cambio de configuración regional: transiciones fluidas entre 5 idiomas.",
+  "5bc5fc932c98c5ae": "Feed social - Ejemplo de traducción genérica",
+  "7a5bff8bd7f5f8eb": "Consulta este diagrama de arquitectura de nuestro nuevo sistema de distribución de contenido multilingüe.",
   "a65b724a9c1e15fe": {
     "c": {
       "c": [
@@ -148,7 +152,7 @@
                           "many": "compartidos",
                           "other": "compartidos",
                           "plural": "compartidos",
-                          "singular": "compartido"
+                          "singular": "compartir"
                         },
                         "t": "p"
                       },
@@ -205,7 +209,7 @@
     "i": 1,
     "t": "div"
   },
-  "d66622fd97ad735a": "Aplicación de ejemplo de feed social que muestra la internacionalización con General Translation.",
+  "d66622fd97ad735a": "Una aplicación de ejemplo de feed social que demuestra internacionalización con traducciones genéricas.",
   "e85685ffb16217de": {
     "c": {
       "c": [
@@ -256,5 +260,6 @@
     },
     "i": 1,
     "t": "header"
-  }
+  },
+  "ec7fc8f92a946610": "Excelente artículo sobre el futuro de la traducción en tiempo real en aplicaciones web."
 }
