@@ -3,7 +3,7 @@
     "c": {
       "d": {
         "b": {
-          "link": "Link",
+          "link": "Enlace",
           "photo": "Foto",
           "text": "Texto",
           "video": "Video"
@@ -16,12 +16,130 @@
     "i": 1,
     "t": "span"
   },
-  "2932bd5a7c2e7676": "Nuestro equipo acaba de superar 1.000.000 de cadenas de texto traducidas este trimestre. Las herramientas de automatización han cambiado por completo nuestro flujo de trabajo.",
-  "34365549f1083df9": "Acabamos de lanzar una nueva funcionalidad para nuestro proceso de internacionalización. La calidad de las traducciones ha sido increíble en todos los idiomas admitidos.",
-  "52585eee49e18100": "Grabé una guía paso a paso sobre la nueva función de cambio de configuración regional: transiciones fluidas entre 5 idiomas.",
-  "5bc5fc932c98c5ae": "Feed social - Ejemplo de traducción genérica",
-  "7a5bff8bd7f5f8eb": "Consulta este diagrama de arquitectura de nuestro nuevo sistema de distribución de contenido multilingüe.",
-  "a65b724a9c1e15fe": {
+  "0bbb2d227f460a13": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": {
+              "i": 4,
+              "k": "_gt_value_4",
+              "v": "v"
+            },
+            "i": 3,
+            "t": "Link"
+          },
+          {
+            "c": {
+              "i": 6,
+              "k": "_gt_value_6",
+              "v": "v"
+            },
+            "i": 5,
+            "t": "span"
+          },
+          {
+            "c": "·",
+            "i": 7,
+            "t": "span"
+          },
+          {
+            "c": {
+              "i": 9,
+              "k": "_gt_date_9",
+              "v": "d"
+            },
+            "i": 8,
+            "t": "span"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": {
+          "i": 11,
+          "k": "_gt_value_11",
+          "v": "v"
+        },
+        "i": 10,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "217ca2d8f9c8f6a9": {
+    "c": [
+      {
+        "c": "Explorar",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "Descubre temas en tendencia, publicaciones populares y personas a seguir.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "24631a48e276bdcf": {
+    "c": {
+      "c": [
+        "Comentarios (",
+        {
+          "i": 3,
+          "k": "_gt_n_3",
+          "v": "n"
+        },
+        ")"
+      ],
+      "i": 2,
+      "t": "h2"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "2932bd5a7c2e7676": "Nuestro equipo acaba de superar el millón de cadenas traducidas este trimestre. Las herramientas de automatización han revolucionado nuestro flujo de trabajo.",
+  "34365549f1083df9": "Acabamos de lanzar una nueva funcionalidad para nuestro pipeline de internacionalización. La calidad de las traducciones ha sido increíble en todos los idiomas compatibles.",
+  "46b19c6b936362ec": {
+    "c": "Aún no hay publicaciones.",
+    "i": 1,
+    "t": "div"
+  },
+  "52585eee49e18100": "Hemos grabado un recorrido de la nueva función para cambiar la configuración regional. Transiciones fluidas entre 5 idiomas.",
+  "5bc5fc932c98c5ae": "Social Feed: ejemplo básico de traducción",
+  "5e475dea5e4b80b3": {
+    "c": [
+      "Publicaciones (",
+      {
+        "i": 2,
+        "k": "_gt_n_2",
+        "v": "n"
+      },
+      ")"
+    ],
+    "i": 1,
+    "t": "h2"
+  },
+  "601a97992f3b1a50": {
+    "c": {
+      "c": "Buscar publicaciones, personas y temas...",
+      "i": 2,
+      "t": "div"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "6b5b5eece4e22064": {
+    "c": "Aún no hay comentarios. ¡Sé el primero en responder!",
+    "i": 1,
+    "t": "div"
+  },
+  "7a5bff8bd7f5f8eb": "Echa un vistazo a este diagrama de arquitectura de nuestro nuevo sistema multilingüe de distribución de contenido.",
+  "7e174e97fb814fea": {
     "c": {
       "c": [
         {
@@ -36,54 +154,30 @@
         {
           "c": [
             {
-              "c": [
-                {
-                  "c": {
-                    "i": 8,
-                    "k": "_gt_value_8",
-                    "v": "v"
-                  },
-                  "i": 7,
-                  "t": "span"
-                },
-                {
-                  "c": {
-                    "i": 10,
-                    "k": "_gt_value_10",
-                    "v": "v"
-                  },
-                  "i": 9,
-                  "t": "span"
-                },
-                {
-                  "c": "·",
-                  "i": 11,
-                  "t": "span"
-                },
-                {
-                  "c": {
-                    "i": 13,
-                    "k": "_gt_date_13",
-                    "v": "d"
-                  },
-                  "i": 12,
-                  "t": "span"
-                },
-                {
-                  "i": 14,
-                  "t": "PostTypeBadge"
-                }
-              ],
+              "c": {
+                "i": 7,
+                "k": "_gt_value_7",
+                "v": "v"
+              },
               "i": 6,
-              "t": "div"
+              "t": "h1"
             },
             {
               "c": {
-                "i": 16,
-                "k": "_gt_value_16",
+                "i": 9,
+                "k": "_gt_value_9",
                 "v": "v"
               },
-              "i": 15,
+              "i": 8,
+              "t": "p"
+            },
+            {
+              "c": {
+                "i": 11,
+                "k": "_gt_value_11",
+                "v": "v"
+              },
+              "i": 10,
               "t": "p"
             },
             {
@@ -91,81 +185,65 @@
                 {
                   "c": [
                     {
-                      "i": 19,
-                      "k": "_gt_n_19",
-                      "v": "n"
+                      "c": {
+                        "i": 15,
+                        "k": "_gt_n_15",
+                        "v": "n"
+                      },
+                      "i": 14,
+                      "t": "span"
                     },
                     " ",
                     {
-                      "d": {
-                        "b": {
-                          "many": "me gusta",
-                          "other": "me gusta",
-                          "plural": "me gusta",
-                          "singular": "me gusta"
+                      "c": {
+                        "d": {
+                          "b": {
+                            "many": "seguidores",
+                            "other": "seguidores",
+                            "plural": "seguidores",
+                            "singular": "seguidor"
+                          },
+                          "t": "p"
                         },
-                        "t": "p"
+                        "i": 17,
+                        "t": "Plural"
                       },
-                      "i": 20,
-                      "t": "Plural"
+                      "i": 16,
+                      "t": "span"
+                    }
+                  ],
+                  "i": 13,
+                  "t": "span"
+                },
+                {
+                  "c": [
+                    {
+                      "c": {
+                        "i": 20,
+                        "k": "_gt_n_20",
+                        "v": "n"
+                      },
+                      "i": 19,
+                      "t": "span"
+                    },
+                    " ",
+                    {
+                      "c": "siguiendo",
+                      "i": 21,
+                      "t": "span"
                     }
                   ],
                   "i": 18,
                   "t": "span"
-                },
-                {
-                  "c": [
-                    {
-                      "i": 22,
-                      "k": "_gt_n_22",
-                      "v": "n"
-                    },
-                    " ",
-                    {
-                      "d": {
-                        "b": {
-                          "many": "comentarios",
-                          "other": "comentarios",
-                          "plural": "comentarios",
-                          "singular": "comentario"
-                        },
-                        "t": "p"
-                      },
-                      "i": 23,
-                      "t": "Plural"
-                    }
-                  ],
-                  "i": 21,
-                  "t": "span"
-                },
-                {
-                  "c": [
-                    {
-                      "i": 25,
-                      "k": "_gt_n_25",
-                      "v": "n"
-                    },
-                    " ",
-                    {
-                      "d": {
-                        "b": {
-                          "many": "compartidos",
-                          "other": "compartidos",
-                          "plural": "compartidos",
-                          "singular": "compartir"
-                        },
-                        "t": "p"
-                      },
-                      "i": 26,
-                      "t": "Plural"
-                    }
-                  ],
-                  "i": 24,
-                  "t": "span"
                 }
               ],
-              "i": 17,
+              "i": 12,
               "t": "div"
+            },
+            {
+              "c": "Seguir",
+              "i": 22,
+              "t": "button"
             }
           ],
           "i": 5,
@@ -176,12 +254,47 @@
       "t": "div"
     },
     "i": 1,
-    "t": "article"
+    "t": "div"
+  },
+  "88ec15e0f048cbc8": {
+    "c": "← Volver al feed",
+    "i": 1,
+    "t": "Link"
+  },
+  "8d2833e9cf55e3ac": {
+    "c": "Publicaciones populares",
+    "i": 1,
+    "t": "h2"
+  },
+  "b4621a42b43e0b27": {
+    "c": [
+      {
+        "c": "Escribe una respuesta",
+        "i": 2,
+        "t": "p"
+      },
+      {
+        "c": "Comparte tus ideas...",
+        "i": 3,
+        "t": "div"
+      },
+      {
+        "c": {
+          "c": "Responder",
+          "i": 5,
+          "t": "button"
+        },
+        "i": 4,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
   },
   "bd3467007430607f": {
     "c": "Esta es una aplicación de ejemplo creada con General Translation para demostrar la internacionalización.",
     "i": 1,
-    "t": "div"
+    "t": "p"
   },
   "c372506db7d9c794": {
     "c": [
@@ -209,23 +322,44 @@
     "i": 1,
     "t": "div"
   },
-  "d66622fd97ad735a": "Una aplicación de ejemplo de feed social que demuestra internacionalización con traducciones genéricas.",
-  "e85685ffb16217de": {
+  "c58b41c98df808a2": {
     "c": {
       "c": [
         {
-          "c": {
-            "c": [
-              "General Translation ",
-              {
-                "c": "/ Feed Social",
+          "c": [
+            {
+              "c": {
+                "c": [
+                  "General Translation ",
+                  {
+                    "c": "/ Feed Social",
+                    "i": 6,
+                    "t": "span"
+                  }
+                ],
                 "i": 5,
-                "t": "span"
-              }
-            ],
-            "i": 4,
-            "t": "h1"
-          },
+                "t": "h1"
+              },
+              "i": 4,
+              "t": "Link"
+            },
+            {
+              "c": [
+                {
+                  "c": "Feed",
+                  "i": 8,
+                  "t": "Link"
+                },
+                {
+                  "c": "Explorar",
+                  "i": 9,
+                  "t": "Link"
+                }
+              ],
+              "i": 7,
+              "t": "nav"
+            }
+          ],
           "i": 3,
           "t": "div"
         },
@@ -234,24 +368,24 @@
             {
               "c": {
                 "c": {
-                  "i": 9,
+                  "i": 13,
                   "t": "path"
                 },
-                "i": 8,
+                "i": 12,
                 "t": "svg"
               },
               "d": {
                 "arl": "GitHub"
               },
-              "i": 7,
+              "i": 11,
               "t": "a"
             },
             {
-              "i": 10,
+              "i": 14,
               "t": "LocaleSelector"
             }
           ],
-          "i": 6,
+          "i": 10,
           "t": "div"
         }
       ],
@@ -261,5 +395,6 @@
     "i": 1,
     "t": "header"
   },
+  "d66622fd97ad735a": "Una aplicación de ejemplo de feed social que demuestra la internacionalización con traducción básica.",
   "ec7fc8f92a946610": "Excelente artículo sobre el futuro de la traducción en tiempo real en aplicaciones web."
 }
