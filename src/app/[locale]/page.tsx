@@ -1,4 +1,5 @@
 import { T, Var, Num, DateTime, Plural, Branch } from "gt-next";
+import { getGT } from "gt-next/server";
 import Header from "@/components/Header";
 import Disclaimer from "@/components/Disclaimer";
 
@@ -88,7 +89,7 @@ function PostTypeBadge({ type }: { type: Post["type"] }) {
   );
 }
 
-function PostCard({ post }: { post: Post }) {
+async function PostCard({ post, translatedText }: { post: Post; translatedText: string }) {
   return (
     <T>
       <article className="border border-neutral-800 rounded-lg p-5 hover:border-neutral-700 transition-colors">
@@ -106,7 +107,7 @@ function PostCard({ post }: { post: Post }) {
               </span>
               <PostTypeBadge type={post.type} />
             </div>
-            <p className="mt-2 text-neutral-300 leading-relaxed"><Var>{post.text}</Var></p>
+            <p className="mt-2 text-neutral-300 leading-relaxed"><Var>{translatedText}</Var></p>
             <div className="mt-3 flex items-center gap-6 text-sm text-neutral-500">
               <span>
                 <Num>{post.likes}</Num>{" "}
@@ -128,7 +129,15 @@ function PostCard({ post }: { post: Post }) {
   );
 }
 
-export default function Home() {
+export default async function Home() {
+  const t = await getGT();
+  const postTexts: Record<number, string> = {
+    1: t("Just shipped a new feature for our internationalization pipeline. The translation quality has been incredible across all supported languages."),
+    2: t("Check out this architecture diagram for our new multilingual content delivery system."),
+    3: t("Recorded a walkthrough of the new locale switching feature. Seamless transitions between 5 languages."),
+    4: t("Great article on the future of real-time translation in web applications."),
+    5: t("Our team just crossed 1,000,000 translated strings this quarter. The automation tools have been a game changer for our workflow."),
+  };
   return (
     <div className="min-h-screen">
       <Header />
@@ -136,7 +145,7 @@ export default function Home() {
         <Disclaimer />
         <div className="space-y-4">
           {posts.map((post) => (
-            <PostCard key={post.id} post={post} />
+            <PostCard key={post.id} post={post} translatedText={postTexts[post.id]} />
           ))}
         </div>
         <T>

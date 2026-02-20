@@ -16,7 +16,11 @@
     "i": 1,
     "t": "span"
   },
-  "5bc5fc932c98c5ae": "Flux social – exemple General Translation",
+  "2932bd5a7c2e7676": "Notre équipe vient de franchir le seuil du million de chaînes traduites ce trimestre. Nos outils d’automatisation ont complètement transformé notre flux de travail.",
+  "34365549f1083df9": "Je viens de livrer une nouvelle fonctionnalité pour notre pipeline d’internationalisation. La qualité des traductions est incroyable dans toutes les langues prises en charge.",
+  "52585eee49e18100": "J’ai enregistré une démo guidée de la nouvelle fonctionnalité de changement de locale. Transitions fluides entre 5 langues.",
+  "5bc5fc932c98c5ae": "Fil social - Exemple général de traduction",
+  "7a5bff8bd7f5f8eb": "Découvrez ce schéma d’architecture de notre nouveau système de diffusion de contenu multilingue.",
   "a65b724a9c1e15fe": {
     "c": {
       "c": [
@@ -95,9 +99,9 @@
                     {
                       "d": {
                         "b": {
-                          "many": "J'aime",
-                          "other": "j'aime",
-                          "plural": "mentions J'aime",
+                          "many": "j'aime",
+                          "other": "J'aime",
+                          "plural": "j'aime",
                           "singular": "j'aime"
                         },
                         "t": "p"
@@ -205,7 +209,7 @@
     "i": 1,
     "t": "div"
   },
-  "d66622fd97ad735a": "Application d’exemple de flux social démontrant l’internationalisation avec General Translation.",
+  "d66622fd97ad735a": "Une application de fil social d’exemple démontrant l’internationalisation avec General Translation.",
   "e85685ffb16217de": {
     "c": {
       "c": [
@@ -256,5 +260,6 @@
     },
     "i": 1,
     "t": "header"
-  }
+  },
+  "ec7fc8f92a946610": "Excellent article sur l’avenir de la traduction en temps réel dans les applications web."
 }
