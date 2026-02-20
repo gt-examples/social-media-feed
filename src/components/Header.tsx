@@ -1,16 +1,33 @@
 import { T } from "gt-next";
 import { LocaleSelector } from "gt-next/client";
+import Link from "next/link";
 
 export default function Header() {
   return (
     <T>
       <header className="border-b border-neutral-800 bg-neutral-950/80 backdrop-blur-sm sticky top-0 z-10">
         <div className="max-w-2xl mx-auto px-4 h-14 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <h1 className="text-sm font-semibold tracking-tight text-neutral-100">
-              General Translation{" "}
-              <span className="text-neutral-500 font-normal">/ Social Feed</span>
-            </h1>
+          <div className="flex items-center gap-4">
+            <Link href="/">
+              <h1 className="text-sm font-semibold tracking-tight text-neutral-100 hover:text-neutral-300 transition-colors">
+                General Translation{" "}
+                <span className="text-neutral-500 font-normal">/ Social Feed</span>
+              </h1>
+            </Link>
+            <nav className="hidden sm:flex items-center gap-3 text-sm">
+              <Link
+                href="/"
+                className="text-neutral-400 hover:text-neutral-100 transition-colors"
+              >
+                Feed
+              </Link>
+              <Link
+                href="/explore"
+                className="text-neutral-400 hover:text-neutral-100 transition-colors"
+              >
+                Explore
+              </Link>
+            </nav>
           </div>
           <div className="flex items-center gap-3">
             <a
