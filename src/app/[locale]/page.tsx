@@ -6,13 +6,13 @@ import PostCard from "@/components/PostCard";
 import { posts } from "@/data/posts";
 
 export default async function Home() {
-  const t = await getGT();
+  const gt = await getGT();
   const postTexts: Record<number, string> = {
-    1: t("Just shipped a new feature for our internationalization pipeline. The translation quality has been incredible across all supported languages."),
-    2: t("Check out this architecture diagram for our new multilingual content delivery system."),
-    3: t("Recorded a walkthrough of the new locale switching feature. Seamless transitions between 5 languages."),
-    4: t("Great article on the future of real-time translation in web applications."),
-    5: t("Our team just crossed 1,000,000 translated strings this quarter. The automation tools have been a game changer for our workflow."),
+    1: gt("Just shipped a new feature for our internationalization pipeline. The translation quality has been incredible across all supported languages."),
+    2: gt("Check out this architecture diagram for our new multilingual content delivery system."),
+    3: gt("Recorded a walkthrough of the new locale switching feature. Seamless transitions between 5 languages."),
+    4: gt("Great article on the future of real-time translation in web applications."),
+    5: gt("Our team just crossed 1,000,000 translated strings this quarter. The automation tools have been a game changer for our workflow."),
   };
   return (
     <div className="min-h-screen">

@@ -6,28 +6,6 @@ import Header from "@/components/Header";
 import PostCard from "@/components/PostCard";
 import { getPostById, comments } from "@/data/posts";
 
-const postTextMap: Record<number, string> = {
-  1: "Just shipped a new feature for our internationalization pipeline. The translation quality has been incredible across all supported languages.",
-  2: "Check out this architecture diagram for our new multilingual content delivery system.",
-  3: "Recorded a walkthrough of the new locale switching feature. Seamless transitions between 5 languages.",
-  4: "Great article on the future of real-time translation in web applications.",
-  5: "Our team just crossed 1,000,000 translated strings this quarter. The automation tools have been a game changer for our workflow.",
-};
-
-const commentTextMap: Record<string, string> = {
-  "Congrats on the launch! The pipeline looks solid.": "Congrats on the launch! The pipeline looks solid.",
-  "The quality improvements are really noticeable. Great work!": "The quality improvements are really noticeable. Great work!",
-  "Love the separation of concerns in this design.": "Love the separation of concerns in this design.",
-  "We should adopt this pattern for our next project.": "We should adopt this pattern for our next project.",
-  "Would love to write about this architecture. Mind if I reach out?": "Would love to write about this architecture. Mind if I reach out?",
-  "Smooth transitions! What framework are you using?": "Smooth transitions! What framework are you using?",
-  "Bookmarked. The section on neural machine translation was fascinating.": "Bookmarked. The section on neural machine translation was fascinating.",
-  "That's an incredible milestone! What was the biggest scaling challenge?": "That's an incredible milestone! What was the biggest scaling challenge?",
-  "A million strings! The automation really pays off at scale.": "A million strings! The automation really pays off at scale.",
-  "Inspiring numbers. Our team is working toward the same goal.": "Inspiring numbers. Our team is working toward the same goal.",
-  "This deserves a feature article. The growth is remarkable.": "This deserves a feature article. The growth is remarkable.",
-};
-
 export default async function PostDetail({
   params,
 }: {
@@ -38,8 +16,31 @@ export default async function PostDetail({
   const post = getPostById(postId);
   if (!post) notFound();
 
-  const t = await getGT();
-  const translatedText = t(postTextMap[postId] ?? post.text);
+  const gt = await getGT();
+
+  const postTexts: Record<number, string> = {
+    1: gt("Just shipped a new feature for our internationalization pipeline. The translation quality has been incredible across all supported languages."),
+    2: gt("Check out this architecture diagram for our new multilingual content delivery system."),
+    3: gt("Recorded a walkthrough of the new locale switching feature. Seamless transitions between 5 languages."),
+    4: gt("Great article on the future of real-time translation in web applications."),
+    5: gt("Our team just crossed 1,000,000 translated strings this quarter. The automation tools have been a game changer for our workflow."),
+  };
+
+  const commentTexts: Record<string, string> = {
+    "Congrats on the launch! The pipeline looks solid.": gt("Congrats on the launch! The pipeline looks solid."),
+    "The quality improvements are really noticeable. Great work!": gt("The quality improvements are really noticeable. Great work!"),
+    "Love the separation of concerns in this design.": gt("Love the separation of concerns in this design."),
+    "We should adopt this pattern for our next project.": gt("We should adopt this pattern for our next project."),
+    "Would love to write about this architecture. Mind if I reach out?": gt("Would love to write about this architecture. Mind if I reach out?"),
+    "Smooth transitions! What framework are you using?": gt("Smooth transitions! What framework are you using?"),
+    "Bookmarked. The section on neural machine translation was fascinating.": gt("Bookmarked. The section on neural machine translation was fascinating."),
+    "That's an incredible milestone! What was the biggest scaling challenge?": gt("That's an incredible milestone! What was the biggest scaling challenge?"),
+    "A million strings! The automation really pays off at scale.": gt("A million strings! The automation really pays off at scale."),
+    "Inspiring numbers. Our team is working toward the same goal.": gt("Inspiring numbers. Our team is working toward the same goal."),
+    "This deserves a feature article. The growth is remarkable.": gt("This deserves a feature article. The growth is remarkable."),
+  };
+
+  const translatedText = postTexts[postId] ?? post.text;
   const postComments = comments[postId] ?? [];
 
   return (
@@ -74,7 +75,7 @@ export default async function PostDetail({
         ) : (
           <div className="space-y-3">
             {postComments.map((comment, i) => {
-              const translatedComment = t(commentTextMap[comment.text] ?? comment.text);
+              const translatedComment = commentTexts[comment.text] ?? comment.text;
               const handleSlug = comment.handle.replace("@", "");
               return (
                 <T key={i}>

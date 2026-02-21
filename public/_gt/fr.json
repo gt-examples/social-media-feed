@@ -69,6 +69,9 @@
     "i": 1,
     "t": "div"
   },
+  "0d3e6875cde73e68": "Un million de chaînes ! L’automatisation fait vraiment la différence à grande échelle.",
+  "165f0801e57e5eb9": "VP Engineering. Mise à l’échelle de l’infrastructure de traduction pour des produits globaux.",
+  "1b729d1f2cddf530": "Contributeur·rice open source spécialisé·e dans la prise en charge des langues africaines.",
   "217ca2d8f9c8f6a9": {
     "c": [
       {
@@ -102,15 +105,19 @@
     "i": 1,
     "t": "div"
   },
-  "2932bd5a7c2e7676": "Notre équipe vient de dépasser le cap du million de chaînes de texte traduites ce trimestre. Les outils d’automatisation ont complètement transformé notre flux de travail.",
+  "2932bd5a7c2e7676": "Notre équipe vient de dépasser le cap du million de chaînes traduites ce trimestre. Les outils d’automatisation ont complètement changé la donne pour notre flux de travail.",
+  "2bbcdd70dbc016de": "Les améliorations de qualité sont vraiment visibles. Excellent travail !",
+  "320a99fcde61a04d": "J’adorerais écrire un article sur cette architecture. Ça te va si je te contacte ?",
   "34365549f1083df9": "Je viens de déployer une nouvelle fonctionnalité pour notre pipeline d’internationalisation. La qualité des traductions est incroyable dans toutes les langues prises en charge.",
+  "364d997a271a1203": "Développeur front-end et passionné d’i18n. Rendre le web accessible à tous.",
   "46b19c6b936362ec": {
     "c": "Aucun post pour l'instant.",
     "i": 1,
     "t": "div"
   },
-  "52585eee49e18100": "J’ai enregistré une démo guidée de la nouvelle fonctionnalité de changement de locale. Transitions fluides entre 5 langues.",
-  "5bc5fc932c98c5ae": "Flux social – Exemple avec General Translation",
+  "52585eee49e18100": "J’ai enregistré une démo guidée de la nouvelle fonctionnalité de changement de locale. Transitions fluides entre cinq langues.",
+  "561c83ae79743b7d": "Transitions ultra fluides ! Tu utilises quel framework ?",
+  "5bc5fc932c98c5ae": "Fil d’actualités - Exemple général de traduction",
   "5e475dea5e4b80b3": {
     "c": [
       "Publications (",
@@ -124,6 +131,48 @@
     "i": 1,
     "t": "h2"
   },
+  "5ea6f6e231a1651a": {
+    "c": [
+      {
+        "c": {
+          "i": 3,
+          "k": "_gt_value_3",
+          "v": "v"
+        },
+        "i": 2,
+        "t": "Link"
+      },
+      {
+        "c": {
+          "i": 5,
+          "k": "_gt_value_5",
+          "v": "v"
+        },
+        "i": 4,
+        "t": "span"
+      },
+      {
+        "c": "·",
+        "i": 6,
+        "t": "span"
+      },
+      {
+        "c": {
+          "i": 8,
+          "k": "_gt_date_8",
+          "v": "d"
+        },
+        "i": 7,
+        "t": "span"
+      },
+      {
+        "i": 9,
+        "t": "PostTypeBadge"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "601a97992f3b1a50": {
     "c": {
       "c": "Rechercher des publications, des personnes et des sujets...",
@@ -133,12 +182,14 @@
     "i": 1,
     "t": "div"
   },
+  "64067f25326a0992": "On devrait adopter ce pattern pour notre prochain projet.",
+  "6b067511c902302a": "Félicitations pour le lancement ! Le pipeline a l’air solide.",
   "6b5b5eece4e22064": {
     "c": "Aucun commentaire pour l'instant. Soyez le premier à répondre !",
     "i": 1,
     "t": "div"
   },
-  "7a5bff8bd7f5f8eb": "Découvrez ce schéma d’architecture de notre nouveau système de diffusion de contenu multilingue.",
+  "7a5bff8bd7f5f8eb": "Découvrez ce schéma d’architecture pour notre nouveau système de diffusion de contenus multilingues.",
   "7e174e97fb814fea": {
     "c": {
       "c": [
@@ -256,6 +307,89 @@
     "i": 1,
     "t": "div"
   },
+  "7f042bdbd896a523": "Développeur·e franco-canadien·ne passionné·e par l’i18n accessible.",
+  "84cbb992e9f6618f": {
+    "c": [
+      {
+        "c": [
+          {
+            "i": 3,
+            "k": "_gt_n_3",
+            "v": "n"
+          },
+          " ",
+          {
+            "d": {
+              "b": {
+                "many": "likes",
+                "other": "j'aime",
+                "plural": "j'aime",
+                "singular": "like"
+              },
+              "t": "p"
+            },
+            "i": 4,
+            "t": "Plural"
+          }
+        ],
+        "i": 2,
+        "t": "Link"
+      },
+      {
+        "c": [
+          {
+            "i": 6,
+            "k": "_gt_n_6",
+            "v": "n"
+          },
+          " ",
+          {
+            "d": {
+              "b": {
+                "many": "commentaires",
+                "other": "commentaires",
+                "plural": "commentaires",
+                "singular": "commentaire"
+              },
+              "t": "p"
+            },
+            "i": 7,
+            "t": "Plural"
+          }
+        ],
+        "i": 5,
+        "t": "Link"
+      },
+      {
+        "c": [
+          {
+            "i": 9,
+            "k": "_gt_n_9",
+            "v": "n"
+          },
+          " ",
+          {
+            "d": {
+              "b": {
+                "many": "partages",
+                "other": "partages",
+                "plural": "partages",
+                "singular": "action"
+              },
+              "t": "p"
+            },
+            "i": 10,
+            "t": "Plural"
+          }
+        ],
+        "i": 8,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "8814d2868cd8116c": "Ajouté aux favoris. La section sur la traduction automatique neuronale était fascinante.",
   "88ec15e0f048cbc8": {
     "c": "← Retour au fil",
     "i": 1,
@@ -266,6 +400,18 @@
     "i": 1,
     "t": "h2"
   },
+  "8eabda2071c8002f": "J’adore la séparation des responsabilités dans ce design.",
+  "900615f993dacea6": "Ingénieur·e en localisation dans une entreprise mondiale de e-commerce.",
+  "9b6f7400a58e91da": {
+    "c": {
+      "c": "Qui suivre",
+      "i": 2,
+      "t": "h2"
+    },
+    "i": 1,
+    "t": "section"
+  },
+  "a65d81be480c0d58": "Des chiffres inspirants. Notre équipe vise le même objectif.",
   "b4621a42b43e0b27": {
     "c": [
       {
@@ -291,10 +437,20 @@
     "i": 1,
     "t": "div"
   },
+  "b843ee868d237b5a": "C’est une étape géniale ! Quel a été le plus gros défi de passage à l’échelle ?",
+  "bcb72ca214e4b75a": {
+    "c": {
+      "c": "Sujets tendance",
+      "i": 2,
+      "t": "h2"
+    },
+    "i": 1,
+    "t": "section"
+  },
   "bd3467007430607f": {
     "c": "Voici un exemple d'application construite avec General Translation pour illustrer l'internationalisation.",
     "i": 1,
-    "t": "p"
+    "t": "div"
   },
   "c372506db7d9c794": {
     "c": [
@@ -395,6 +551,106 @@
     "i": 1,
     "t": "header"
   },
-  "d66622fd97ad735a": "Une application de flux de médias sociaux qui démontre l’internationalisation avec General Translation.",
-  "ec7fc8f92a946610": "Excellent article sur l’avenir de la traduction en temps réel dans les applications web."
+  "d3b2d86e7e2c4a3a": "Responsable de l’ingénierie dans une startup spécialisée dans la traduction. Nous construisons des ponts entre les langues.",
+  "d433fc2a9bec3247": "Journaliste tech spécialisé en localisation et en traduction par IA.",
+  "d66622fd97ad735a": "Un exemple d’application de fil d’actualités illustrant l’internationalisation avec General Translation.",
+  "dc82bdee03415ef1": {
+    "c": [
+      {
+        "c": {
+          "i": 3,
+          "k": "_gt_value_3",
+          "v": "v"
+        },
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": {
+              "i": 6,
+              "k": "_gt_value_6",
+              "v": "v"
+            },
+            "i": 5,
+            "t": "p"
+          },
+          {
+            "c": {
+              "i": 8,
+              "k": "_gt_value_8",
+              "v": "v"
+            },
+            "i": 7,
+            "t": "p"
+          },
+          {
+            "c": {
+              "i": 10,
+              "k": "_gt_value_10",
+              "v": "v"
+            },
+            "i": 9,
+            "t": "p"
+          }
+        ],
+        "i": 4,
+        "t": "div"
+      },
+      {
+        "c": "Suivre",
+        "i": 11,
+        "t": "button"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "e6965cc62d12b6e3": "Architecte systèmes. Spécialiste des systèmes distribués et de l’infrastructure de localisation.",
+  "ec7fc8f92a946610": "Excellent article sur l’avenir de la traduction en temps réel dans les applications web.",
+  "f96c6b72f2977e58": {
+    "c": [
+      {
+        "c": [
+          "#",
+          {
+            "i": 3,
+            "k": "_gt_value_3",
+            "v": "v"
+          }
+        ],
+        "i": 2,
+        "t": "p"
+      },
+      {
+        "c": [
+          {
+            "i": 5,
+            "k": "_gt_n_5",
+            "v": "n"
+          },
+          " ",
+          {
+            "d": {
+              "b": {
+                "many": "publications",
+                "other": "posts",
+                "plural": "publications",
+                "singular": "publication"
+              },
+              "t": "p"
+            },
+            "i": 6,
+            "t": "Plural"
+          }
+        ],
+        "i": 4,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "ff0c4eb2e873ae0b": "Ça mérite un vrai article de fond. La croissance est impressionnante."
 }

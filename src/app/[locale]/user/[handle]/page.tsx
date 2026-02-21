@@ -6,22 +6,6 @@ import Header from "@/components/Header";
 import PostCard from "@/components/PostCard";
 import { getUserByHandle, getPostsByHandle } from "@/data/posts";
 
-const postTextMap: Record<number, string> = {
-  1: "Just shipped a new feature for our internationalization pipeline. The translation quality has been incredible across all supported languages.",
-  2: "Check out this architecture diagram for our new multilingual content delivery system.",
-  3: "Recorded a walkthrough of the new locale switching feature. Seamless transitions between 5 languages.",
-  4: "Great article on the future of real-time translation in web applications.",
-  5: "Our team just crossed 1,000,000 translated strings this quarter. The automation tools have been a game changer for our workflow.",
-};
-
-const bioMap: Record<string, string> = {
-  "@alicechen": "Engineering lead at a translation startup. Building bridges between languages.",
-  "@mrivera": "Systems architect. Distributed systems and localization infrastructure.",
-  "@yukitanaka": "Frontend developer and i18n enthusiast. Making the web accessible to everyone.",
-  "@sarahkim": "Tech journalist covering localization and AI translation.",
-  "@dokafor": "VP of Engineering. Scaling translation infrastructure for global products.",
-};
-
 export default async function UserProfile({
   params,
 }: {
@@ -31,9 +15,26 @@ export default async function UserProfile({
   const user = getUserByHandle(`@${handle}`);
   if (!user) notFound();
 
-  const t = await getGT();
+  const gt = await getGT();
   const userPosts = getPostsByHandle(user.handle);
-  const translatedBio = t(bioMap[user.handle] ?? user.bio ?? "");
+
+  const postTexts: Record<number, string> = {
+    1: gt("Just shipped a new feature for our internationalization pipeline. The translation quality has been incredible across all supported languages."),
+    2: gt("Check out this architecture diagram for our new multilingual content delivery system."),
+    3: gt("Recorded a walkthrough of the new locale switching feature. Seamless transitions between 5 languages."),
+    4: gt("Great article on the future of real-time translation in web applications."),
+    5: gt("Our team just crossed 1,000,000 translated strings this quarter. The automation tools have been a game changer for our workflow."),
+  };
+
+  const bios: Record<string, string> = {
+    "@alicechen": gt("Engineering lead at a translation startup. Building bridges between languages."),
+    "@mrivera": gt("Systems architect. Distributed systems and localization infrastructure."),
+    "@yukitanaka": gt("Frontend developer and i18n enthusiast. Making the web accessible to everyone."),
+    "@sarahkim": gt("Tech journalist covering localization and AI translation."),
+    "@dokafor": gt("VP of Engineering. Scaling translation infrastructure for global products."),
+  };
+
+  const translatedBio = bios[user.handle] ?? "";
 
   return (
     <div className="min-h-screen">
@@ -91,7 +92,7 @@ export default async function UserProfile({
             <PostCard
               key={post.id}
               post={post}
-              translatedText={t(postTextMap[post.id] ?? post.text)}
+              translatedText={postTexts[post.id] ?? post.text}
             />
           ))}
         </div>

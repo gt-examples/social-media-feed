@@ -7,16 +7,16 @@ import { getGT, getLocale } from "gt-next/server";
 const inter = Inter({ subsets: ["latin"] });
 
 export async function generateMetadata(): Promise<Metadata> {
-  const t = await getGT();
+  const gt = await getGT();
   const locale = await getLocale();
   return {
-    title: t("Social Feed - General Translation Example"),
-    description: t(
+    title: gt("Social Feed - General Translation Example"),
+    description: gt(
       "A social media feed example application demonstrating internationalization with General Translation."
     ),
     openGraph: {
-      title: t("Social Feed - General Translation Example"),
-      description: t(
+      title: gt("Social Feed - General Translation Example"),
+      description: gt(
         "A social media feed example application demonstrating internationalization with General Translation."
       ),
       locale,
@@ -24,8 +24,8 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: t("Social Feed - General Translation Example"),
-      description: t(
+      title: gt("Social Feed - General Translation Example"),
+      description: gt(
         "A social media feed example application demonstrating internationalization with General Translation."
       ),
     },
